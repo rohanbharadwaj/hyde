@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Rohan Bharadwaj
 tagline:          'Personal Web Page'
 description:      'Technology Enthusiast'
-url:              http://hyde.getpoole.com
+url:              
 baseurl:          /
 
 author:
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/rohanbharadwaj
