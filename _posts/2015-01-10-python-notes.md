@@ -2,8 +2,9 @@
 layout: post
 title: Python Notes
 ---
+This post conatins some Python programming notes, which I have wriiten while reading Python tutorial that is offered by [Google](https://developers.google.com/edu/python/introduction)
 
-**Ground Work**
+**Basics**
 
 - sys.argv[0] ---- program name itself 
 - arguments and variables similar no types 
