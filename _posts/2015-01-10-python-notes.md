@@ -96,13 +96,15 @@ for var in list:
 - comparison depends on the type of elements compared.{strings,ints,char}
 
 **custom sorting**
+
 - old way 2 argument comparator method. python has new way
 - sort by length
+- 
 ```
-	>>> sorted(a,key=len)
+>>> sorted(a,key=len)
 ['d', 'a', 'dc', 'aa', 'ccc']
 >>> def last(s): return s[-1]
-... 
+
 >>> sorted(a,key=last)
 ['a', 'aa', 'ccc', 'dc', 'd']
 split, join
@@ -116,6 +118,7 @@ split, join
 >>> b.split(':')
 ['z', 'd', 'dc', 'a', 'aa']
 ```
+
 - Don’t modify list while iterating a list (even java has same constraint)
 
 **Tuple**
