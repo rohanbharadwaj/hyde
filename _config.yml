@@ -7,9 +7,10 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Rohan Bharadwaj
+title:            Rohan
 tagline:          'Personal Web Page'
 description:      'Technology Enthusiast'
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 url:              
 baseurl:          /
 
