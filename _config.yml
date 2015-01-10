@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Rohan
 tagline:          'Personal Web Page'
 description:      'Technology Enthusiast'
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar:https://avatars1.githubusercontent.com/u/4630253?v=3&u=d62326a98714440e1ba22e647686783a283b65c0&s=140
 url:              
 baseurl:          /
 
