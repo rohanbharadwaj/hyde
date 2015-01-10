@@ -239,13 +239,15 @@ a.
 - raw string 
  - do not do any special processing with backslashes
 - uses for writing regex
-	```
-    \S non whitespace
-	\s whitespace
-	\d digit 0-9
-	\w word character a-z A-Z 0-9
-	```
-<br />
+
+```
+\S non whitespace
+\s whitespace
+\d digit 0-9
+\w word character a-z A-Z 0-9
+```
+
+
 **Email example**
 
 ```
