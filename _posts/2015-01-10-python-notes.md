@@ -150,12 +150,14 @@ Parallel assignment
 	>>> (x,y) = (1,2)
 ```
 
-***HashTable , /Dictionary***
+**HashTable , /Dictionary**
+
 - {}
 - key,value bindings
 - constant time retrieval 
+
 ```
-	>>> d ={}
+>>> d ={}
 >>> d['a'] = 'alpha'
 >>> d['a']
 'alpha'
