@@ -247,7 +247,7 @@ a.
 **Email example**
 
 ```
-	>>> m = re.search(r'([\w.]+)@([\w.]+)','egrreg gjkenrkj@snfjkv.com erngjk @ ')
+>>> m = re.search(r'([\w.]+)@([\w.]+)','egrreg gjkenrkj@snfjkv.com erngjk @ ')
 >>> m
 <_sre.SRE_Match object at 0xb7467800>
 >>> m.group()
@@ -319,7 +319,7 @@ def main():
 **Modularity**
 
 - just .py file namespace 
-- when we load a python file it runs (do not wrie print outside)<br 
+- when we load a python file it runs (do not wrie print outside)<br/> 
 ```
 >>> import babynames
 Hi There !!!
@@ -340,18 +340,3 @@ Hi There !!!
 >>> urllib.urlretrieve('http://google.com/intl/en_ALL/images/logo.gif','blah.gif')
 ('blah.gif', <httplib.HTTPMessage instance at 0xb6fa870c>)
 ```
-
-
-
-
-	
-
-
-
-
-			
-
-
-
-
-<
