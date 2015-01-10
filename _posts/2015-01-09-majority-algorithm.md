@@ -7,7 +7,7 @@ Given an array of size n, find the majority element. The majority element is the
 This problem can be solved in Linear time using [Majority Vote Algorithm](http://www.cs.utexas.edu/~moore/best-ideas/mjrty/). 
 
 - Time Complexity - O(n)
-- Complexity - O(1)
+- Space Complexity - O(1)
 
 ```
 public class Solution {
