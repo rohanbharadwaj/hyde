@@ -2,7 +2,7 @@
 layout: post
 title: Python Notes
 ---
-This post conatins some Python programming notes, which I have wriiten while reading Python tutorial that is offered by [Google](https://developers.google.com/edu/python/introduction)
+This post conatins Python programming notes, from the Python tutorial that is offered by [Google](https://developers.google.com/edu/python/introduction)
 
 **Basics**
 
