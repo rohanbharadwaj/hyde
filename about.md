@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-<p class="message">
+<p class>
 Page under construction!!!
 </p>
 <p class="message">
