@@ -49,7 +49,7 @@ def Hello(name):
 'Hello'
 ```
 
-***Negatives***
+**Negatives**
 
 ```
 >>> a = 'Hello'
@@ -96,7 +96,7 @@ for var in list:
 - `sorted` - makes a new list and sorts.
 - comparison depends on the type of elements compared.{strings,ints,char}
 
-**custom sorting**
+**Custom sorting**
 
 - old way 2 argument comparator method. python has new way
 - sort by length
@@ -128,6 +128,7 @@ split, join
 - immutable
 - `tup = (1,2,3)`
 - `(x,y,z)` coordinates; `(url,score)` {taking fixed number of strings and pass together)
+
 ```
 >>> a = (1,3,3)
 >>> a
@@ -142,13 +143,13 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 Sort by one thing and then sort by other 
 Write key function that returns a tuple
-	>>> a = [(1,"b"),(2,"a"),(1,"a")]
+>>> a = [(1,"b"),(2,"a"),(1,"a")]
 >>> a
 [(1, 'b'), (2, 'a'), (1, 'a')]
 >>> sorted(a)
 [(1, 'a'), (1, 'b'), (2, 'a')]
 Parallel assignment 
-	>>> (x,y) = (1,2)
+>>> (x,y) = (1,2)
 ```
 
 **HashTable , /Dictionary**
