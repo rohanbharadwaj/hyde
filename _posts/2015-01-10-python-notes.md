@@ -6,10 +6,12 @@ title: Python Notes
 **Ground Work**
 - sys.argv[0] ---- program name itself 
 - arguments and variables similar no types 
+
 ``` python
 def Hello(name):
     a = ‘hello’
 ```    
+
 - `print` seperate by , then space is includes automatically
 - `print 'Hello',name,a`   ===> Hello rohan!!! 10
 - `print'Hello'+name+str(a)` ⇒ Hellorohan!!!10
