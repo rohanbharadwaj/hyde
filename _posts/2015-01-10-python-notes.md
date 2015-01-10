@@ -129,6 +129,7 @@ split, join
 - `tup = (1,2,3)`
 - `(x,y,z)` coordinates; `(url,score)` {taking fixed number of strings and pass together)
 
+
 ```
 >>> a = (1,3,3)
 >>> a
@@ -151,6 +152,7 @@ Write key function that returns a tuple
 Parallel assignment 
 >>> (x,y) = (1,2)
 ```
+
 
 **HashTable , /Dictionary**
 
