@@ -99,7 +99,7 @@ for var in list:
 
 - old way 2 argument comparator method. python has new way
 - sort by length
-- 
+
 ```
 >>> sorted(a,key=len)
 ['d', 'a', 'dc', 'aa', 'ccc']
