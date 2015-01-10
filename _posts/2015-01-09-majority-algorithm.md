@@ -9,7 +9,7 @@ This problem can be solved in Linear time using [Majority Vote Algorithm](http:/
 - Time Complexity - O(n)
 - Space Complexity - O(1)
 
-```
+``` java
 public class Solution {
     public int majorityElement(int[] num) {
        int cur=0;
