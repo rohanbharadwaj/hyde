@@ -2,8 +2,9 @@
 layout: post
 title: Python Notes
 ---
-# Python Notes
+
 **Ground Work**
+
 - sys.argv[0] ---- program name itself 
 - arguments and variables similar no types 
 
@@ -60,7 +61,7 @@ def Hello(name):
 'll'
 
 ```
-***Lists***
+**Lists**
 
 - Same syntax across all 
 - `a = [1,2,3,’a’]`
