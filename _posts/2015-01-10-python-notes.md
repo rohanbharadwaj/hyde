@@ -9,7 +9,7 @@ title: Python Notes
 
 ``` python
 def Hello(name):
-    a = ‘hello’
+    a = 'hello'
 ```    
 
 - `print` seperate by , then space is includes automatically
@@ -29,7 +29,8 @@ def Hello(name):
 - These are not python strings and not unicode strings these are just series of bytes.
 
 **Strings slice**
-``` python
+
+``` 
 >>> a = 'Hello'
 >>> a
 'Hello'
@@ -48,6 +49,7 @@ def Hello(name):
 ```
 
 ***Negatives***
+
 ```
 >>> a = 'Hello'
 >>> a[-1]
@@ -117,6 +119,7 @@ split, join
 - Don’t modify list while iterating a list (even java has same constraint)
 
 **Tuple**
+
 - Fixed size 
 - immutable
 - `tup = (1,2,3)`
@@ -160,6 +163,7 @@ KeyError: 'B'
 ```
 
 **get(),keys(),items()**
+
 ```
 d.get()
 >>> d.get('a')
@@ -181,6 +185,7 @@ values()
 ```
 
 **looping**
+
 ```
 >>> for k in sorted(d.keys()): print 'key:',k,'->',d[k]
 ... 
@@ -195,7 +200,9 @@ d.items()
 ('b', 'beta')
 ```
 
+
 **Files**
+
 - creating cat python
 - `f = open(filename,'r')`
 - diff modes - `'r','w''rU'`
@@ -207,6 +214,7 @@ f.write(text)   {be careful we can zero out file}
 ```
 
 **Regular Expression**
+
 - import re
 - returns a match object
 - match = re.search(pattern,text)
@@ -232,6 +240,7 @@ a.
 	\w word character a-z A-Z 0-9
 	```
 **Email example**
+
 ```
 	>>> m = re.search(r'([\w.]+)@([\w.]+)','egrreg gjkenrkj@snfjkv.com erngjk @ ')
 >>> m
@@ -258,6 +267,7 @@ findall()
 ```
 
 **Flags**
+
 - DOTALL also matches newline aswell 
 - how to use constants
 ```
@@ -284,7 +294,8 @@ findall()
 - `zip -j name all absolute paths`
 
 **Exceptions**
-``` python
+
+``` 
 def cat(filename):
   try:
     f = open(filename, 'rU') #U ignare dos line ending unix
@@ -301,6 +312,7 @@ def main():
 ```
 
 **Modularity**
+
 - just .py file namespace 
 - when we load a python file it runs (do not wrie print outside)<br 
 ```
@@ -312,6 +324,7 @@ Hi There !!!
 ```
 
 **urllib**
+
 - Takes url and makes it to look like a file
 - `import urllib`
 - Takes a url and tries to look like a file
