@@ -244,6 +244,7 @@ a.
 	\d digit 0-9
 	\w word character a-z A-Z 0-9
 	```
+<br />
 **Email example**
 
 ```
