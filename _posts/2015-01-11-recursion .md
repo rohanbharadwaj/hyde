@@ -3,7 +3,7 @@ layout: post
 title: Recursion
 ---
 Recursion is powerful to solve many problems with simple and elegant code, but it is often tricky to imagine how the
-calls are being made. I will try to take a problem from Leetcode and explain how the function call flows.
+calls are being made. I will try to take a problem from Leetcode and explain the flow of recursion calls.
 
 >Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 >
