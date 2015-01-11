@@ -2,8 +2,8 @@
 layout: post
 title: Recursion
 ---
-Recursion is powerful to solve many problems with simple and elegant code, but it is often tricky to imagine how the
-calls are being made. I will try to take a problem from Leetcode and explain the flow of recursive calls.
+Recursion is powerful tool to solve many problems with simple and elegant code, but it is often tricky to imagine how the
+function calls are being made. I will try to take a problem and explain the flow of recursive calls.
 
 >Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 >
