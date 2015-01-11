@@ -36,3 +36,5 @@ public class ExcelTitle {
 }
 ```
 
+… The explanation is shown in the screenshot below:
+![My helpful screenshot]({{ site.url }}/assets/recursion.jpg)
