@@ -13,6 +13,8 @@ description:      'Technology Enthusiast'
 url:              
 baseurl:          /
 
+google_analytics: 'UA-58449503-1'
+
 author:
   name:           'Rohan Bharadwaj'
   url:            https://github.com/rohanbharadwaj
