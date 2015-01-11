@@ -20,6 +20,7 @@ calls are being made. I will try to take a problem from Leetcode and explain how
 >
 
 This problem can be solved using a recursive function and it turns out to be a single line of code. 
+
 ``` java
 public class ExcelTitle {
     public static String convertToTitle(int n) {
@@ -36,5 +37,8 @@ public class ExcelTitle {
 }
 ```
 
-… The explanation is shown in the screenshot below:
+
+The explanation is shown in the screenshot below:
 ![My helpful screenshot]({{ site.url }}/assets/recursion.jpg)
+
+The output of the call `convertToTitle(27)` is AA.
