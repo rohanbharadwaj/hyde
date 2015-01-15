@@ -29,3 +29,26 @@ For A, 1 < 2 => AM < AR, and therefore it will set R = M => R = 0.
 For B, 2 > 1 => AM > AR, and therefore it will set L = M + 1 => L = 1.
 
 Therefore, it is clear that when L == R, we have found the minimum element.
+
+``` java
+public int findMin(int[] num) {
+        int n = num.length;
+        int end = n-1;
+        int start = 0;
+        if(num==null||n==0) return 0;
+        if(n==1) return num[0];
+        while(start<end)
+        {
+            int mid = (start+end)/2;
+            if(mid>0 && num[mid-1]>num[mid]) return num[mid];
+            if(num[mid]>num[end]) start = mid+1;
+            else end = mid-1;
+        }
+     return num[start];   
+    }
+```
+
+Refrence :
+https://oj.leetcode.com/
+
+
