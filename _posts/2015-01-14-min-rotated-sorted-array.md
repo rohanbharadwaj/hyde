@@ -48,7 +48,7 @@ public int findMin(int[] num) {
     }
 ```
 
-Refrence :
-https://oj.leetcode.com/
+Refrence : <br />
+[https://oj.leetcode.com/](https://oj.leetcode.com/)
 
 
