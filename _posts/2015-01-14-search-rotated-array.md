@@ -102,3 +102,4 @@ public class RotatedArray {
 	}
 }
 ```
+[Reference](http://stackoverflow.com/questions/4773807/searching-in-an-sorted-and-rotated-array)
