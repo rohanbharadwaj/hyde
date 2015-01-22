@@ -16,7 +16,7 @@ Academic
 
 Personal 
 
-- Email using Angular and MEAN Stack (source)[https://github.com/rohanbharadwaj/emailapp],(demo)[http://rohanbharadwaj.github.io/emailapp]
+- Email using Angular and MEAN Stack [source](https://github.com/rohanbharadwaj/emailapp),[demo](http://rohanbharadwaj.github.io/emailapp)
 
 
 
